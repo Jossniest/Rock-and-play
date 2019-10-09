@@ -1,0 +1,25 @@
+:root{
+  --primaryWhite:#f3f3f3;
+  --primaryDark: #232528;
+  
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--primaryWhite) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Oswald","Lato","Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans","Helvetica Neue",
+    sans-serif !important;
+  color: var(--primaryDark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-title {
+  font-family: 'Hepta Slab';
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
