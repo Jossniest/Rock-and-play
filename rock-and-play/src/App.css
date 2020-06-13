@@ -1,9 +1,16 @@
-.App {
-  text-align: center;
-}
 
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
 .App-logo {
-  height: 40vmin;
+  background: url("./resources/logo.jpg") no-repeat; 
+  width: 50px; 
+  height: 50px;
+
 }
 
 .App-header {
@@ -15,8 +22,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }

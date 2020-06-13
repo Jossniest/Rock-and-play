@@ -1,0 +1,93 @@
+@import "https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap";
+@import "./../../index.css";
+
+.Login {
+    display: flex;
+    color: white;
+    min-height: 100vh;
+    
+}
+  
+.Login_Aside 
+{
+    width: 50%;
+    background-color: var(--lighterOrange);
+    text-align: center;
+    padding-top: 70px;
+}
+  
+.Login_Form 
+{
+    width: 50%;
+    background-color: #263238;
+    padding: 15px 30px;
+    overflow: hidden;
+   
+}
+
+.info_box{
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;  
+  overflow: hidden;
+  
+}
+.Login ul{
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.Login_Aside i{
+    color: #b2ff59;
+    margin-right: 2px;
+}
+.icon{
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+}
+
+
+
+/*Parte de el login*/
+.FormCenter {
+    margin-bottom: 100px;
+    text-align: left;
+}
+  
+
+.FormTitle {
+    color: #707C8B;
+    font-weight: 300;
+    margin-bottom: 40px;   
+    margin-top:80px;
+}
+  
+.FormTitle_Link {
+    color: var(--thirdDark);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6em;
+    font-family: "Oswald";
+    margin: 0 10px;
+    padding-bottom: 5px;
+}
+  
+.FormTitle_Link:first-child {
+    margin-left: 0;
+ }
+  
+.FormTitle_Link--Active {
+    color: white;
+    border-bottom: 1px solid var(--primaryOrange);
+}
+.FormTitle_Link:hover {
+  color: white;
+  text-decoration: none;
+}
+ 
+
+  
+

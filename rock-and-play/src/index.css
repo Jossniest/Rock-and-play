@@ -1,8 +1,19 @@
+
 :root{
   --primaryWhite:#f3f3f3;
+  --secondaryWhite: #ffffff;
   --primaryDark: #232528;
+  --secondaryDark: #212121;
+  --thirdDark: #9e9e9e;
+  
+  --primaryOrange: #ff3d00;
+  --secondaryOrange:#ff5722;
+  --lighterOrange: #ff8a65;
+  --primaryRed: #b71c1c;
   
 }
+
+
 *{
   box-sizing: border-box;
 }
@@ -22,4 +33,111 @@ body {
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
+.sub-title1{
+  font-family: "Lato";
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  font-weight: lighter;
+  color: var(--secondaryDark);
+}
+.sub-title2{
+  font-family: "Oswald";
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: var(--primaryOrange);
+}
+.text-description{
+  font-family: "Segoe UI";
+  letter-spacing: 0.1rem;
+  text-justify: auto;
+  font-weight: 500;
+  color: var(--primaryDark);
+}
+.text-paragraph{
+  font-family: "Segoe UI";
+  font-stretch: semi-condensed;
+  
+  font-weight: normal;
+  color: var(--secondaryDark);
+}
+.text-layout{
+  font-family: "Segoe UI";
+  letter-spacing: 0.1rem;
+  font-stretch: ultra-condensed;
+  font-weight: bold;
+  color: var(--thirdDark);
+}
+.text-button{
+  font-family: "Segoe UI";
+  
+  font-stretch: wider;
+  font-weight: bold;
+  color: var(--secondaryWhite);
+}
+.text-error{
+  font-family: "Segoe UI";
+  
+  font-stretch: wider;
+  font-weight: normal;
+  color: var(--primaryRed);
+}
+.icons{
+  color: var(--secondaryDark)
+}
+.mt-25{
+  margin-top:25px;
+}
+.icon-sm {
+  width:64px;
+  height: 64px;
+  margin: 0px;
+  padding: 2px;
+}
+.ml-20{
+  margin-left: 20px;
+}
+.TabPage {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8%;
+}
 
+.TabPage_Item {
+  background-color: #4C5D72;
+  color: #9DA6B1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.TabPage_Item--Active {
+  background-color: var(--primaryOrange);
+  color: white;
+}
+.TabPage_Item--Active:hover {
+  
+  color: white;
+}
+
+.TabPage_Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.TabPage_Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.TabPage_Item:hover{
+text-decoration: none;
+color: var(--primaryDark);
+}
+.FormField__Button {
+  color: white;
+  border-radius: 25px;
+  margin-right: 6px;
+}

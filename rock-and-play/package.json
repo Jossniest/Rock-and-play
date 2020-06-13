@@ -3,12 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "@types/react-breadcrumbs-dynamic": "^1.0.2",
     "bootstrap": "^4.3.1",
+    "clsx": "^1.0.4",
+    "firebase": "^7.1.0",
+    "google-maps-react": "^2.0.2",
+    "history": "^4.10.1",
     "materialize-css": "^1.0.0",
     "react": "^16.10.2",
+    "react-breadcrumbs-dynamic": "^1.2.1",
     "react-dom": "^16.10.2",
     "react-materialize": "^3.4.1",
-    "react-scripts": "3.2.0"
+    "react-newline-to-break": "^1.0.6",
+    "react-paypal-button-v2": "^2.6.1",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-through": "^1.1.4",
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
